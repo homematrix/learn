@@ -1,4 +1,4 @@
-## Spike Document Filter 
+# Spike Document Filter 
 
 SDFilter는 다양한 파일의 형식을 식별하고 TEXT를 추출하는 솔루션입니다.
 
