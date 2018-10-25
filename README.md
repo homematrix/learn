@@ -7,11 +7,11 @@ SD필터는 구조화 되지 않는 콘텐츠에서 가치있는 정보로 활�
 
 [활용방안]
 
-. 개인정보솔루션
-. Big Data
-. data-loss 방지
-. DLP
-. eDiscovery
-. 이메일 또는 Document아카이빙
-. Email Security(SPAM)
-. UTM(Unified Threats Management)
+1. 개인정보솔루션
+1. Big Data
+1. data-loss 방지
+1. DLP
+1. eDiscovery
+1. 이메일 또는 Document아카이빙
+1. Email Security(SPAM)
+1. UTM(Unified Threats Management)
