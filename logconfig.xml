@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="10 seconds">
+
+	<property name="LOG_DIR" value="D:/SDFilter/log" />
+	<!-- Appenders -->
+	<appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+		<target>System.out</target>
+		<encoder>
+			<charset>UTF-8</charset>
+			<pattern>[%d{HH:mm:ss} %t] %-5p: %C{20}.%M - %m%n</pattern>
+		</encoder>
+	</appender>
+	<appender name="sdfilter" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOG_DIR}/sdfilter.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${LOG_DIR}/sdfilter_%d{yyyyMMdd}.log.gz</fileNamePattern>
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<charset>UTF-8</charset>
+			<pattern>[%d{HH:mm:ss} %t] %-5p: %C{20}.%M - %m%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- Application Loggers -->
+	<logger name="com.wesome.squeeze" level="debug">
+		<appender-ref ref="sdfilter" />
+	</logger>
+<!--
+	<root level="info">
+		<appender-ref ref="console" />
+	</root>
+-->
+	<!-- 3rdparty Loggers -->
+</configuration>
