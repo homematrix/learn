@@ -1,5 +1,4 @@
 # Spike Document Filter
-=======================
 
 SDFilter는 다양한 파일의 형식을 식별하고 TEXT를 추출하는 솔루션입니다.
 
@@ -18,8 +17,4 @@ SD필터는 구조화 되지 않는 콘텐츠에서 가치있는 정보로 활�
 1. Email Security(SPAM)
 1. UTM(Unified Threats Management)
 
-.. figure:: ../_static/images/first-steps/mkdocs-hello-world.png
-    :align: right
-    :figwidth: 300px
-    :target: ../_static/images/first-steps/mkdocs-hello-world.png
 
