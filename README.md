@@ -7,7 +7,7 @@ SD필터는 구조화 되지 않는 콘텐츠에서 가치있는 정보로 활�
 이는 전자메일 아카이브, 안티바이러스 보호, 컨텐츠 관리, 비즈니스 인텔리전스, 문서 변환 및 캡처 소프트웨어에 활용 가능합니다.
 
 ## [활용방안]
-------------
+
 
 1. 개인정보솔루션
 1. Big Data
@@ -17,3 +17,9 @@ SD필터는 구조화 되지 않는 콘텐츠에서 가치있는 정보로 활�
 1. 이메일 또는 Document아카이빙
 1. Email Security(SPAM)
 1. UTM(Unified Threats Management)
+
+.. figure:: ../_static/images/first-steps/mkdocs-hello-world.png
+    :align: right
+    :figwidth: 300px
+    :target: ../_static/images/first-steps/mkdocs-hello-world.png
+
